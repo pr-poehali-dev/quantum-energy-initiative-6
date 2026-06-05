@@ -30,7 +30,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="/" className="text-3xl font-bold tracking-tighter text-white">
-          SoundForge
+          FEOLOTIN MIX
         </a>
         <div className="md:hidden">
           <Button
@@ -79,8 +79,8 @@ const Header = () => {
           className="hidden md:block border-white/20 text-white hover:bg-white/10"
           asChild
         >
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            BeatStars
+          <a href="https://t.me/feolotinsoundbot" target="_blank" rel="noopener noreferrer">
+            Telegram
           </a>
         </Button>
       </div>

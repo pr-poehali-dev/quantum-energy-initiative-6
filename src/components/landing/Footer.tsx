@@ -1,4 +1,4 @@
-import { Youtube, Instagram, Music2 } from "lucide-react";
+import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
@@ -6,29 +6,18 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-zinc-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} SoundForge. Все права защищены.
+            &copy; {new Date().getFullYear()} FEOLOTIN MIX. Все права защищены.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 items-center">
             <a
-              href="#"
-              className="text-zinc-400 hover:text-white transition-colors"
-              aria-label="YouTube"
+              href="https://t.me/feolotinsoundbot"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
+              aria-label="Telegram"
             >
-              <Youtube />
-            </a>
-            <a
-              href="#"
-              className="text-zinc-400 hover:text-white transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram />
-            </a>
-            <a
-              href="#"
-              className="text-zinc-400 hover:text-white transition-colors"
-              aria-label="BeatStars"
-            >
-              <Music2 />
+              <Icon name="Send" size={20} />
+              <span className="text-sm">@feolotinsoundbot</span>
             </a>
           </div>
         </div>

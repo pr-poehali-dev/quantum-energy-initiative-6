@@ -56,8 +56,8 @@ const HeroSection = () => {
                 onMouseLeave={() => setIsHovered(false)}
                 asChild
               >
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <span className="relative z-10">Слушать биты</span>
+                <a href="https://t.me/feolotinsoundbot" target="_blank" rel="noopener noreferrer">
+                  <span className="relative z-10">Написать в Telegram</span>
                   <span
                     className={`ml-2 relative z-10 transition-transform duration-200 ${
                       isHovered ? "translate-x-1" : ""

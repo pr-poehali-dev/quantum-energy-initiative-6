@@ -22,10 +22,10 @@ const HeroSection = () => {
   }, []);
 
   const stats = [
-    { icon: <Play className="w-6 h-6" />, label: "Продано битов", value: "500+" },
-    { icon: <Disc3 className="w-6 h-6" />, label: "Уникальных треков", value: "1000+" },
-    { icon: <Music2 className="w-6 h-6" />, label: "Довольных артистов", value: "200+" },
-    { icon: <AudioWaveform className="w-6 h-6" />, label: "Жанров", value: "10+" },
+    { icon: <Play className="w-6 h-6" />, label: "Продано битов", value: "300+" },
+    { icon: <Disc3 className="w-6 h-6" />, label: "Уникальных треков", value: "800+" },
+    { icon: <Music2 className="w-6 h-6" />, label: "Довольных артистов", value: "150+" },
+    { icon: <AudioWaveform className="w-6 h-6" />, label: "Жанров в каталоге", value: "12+" },
   ];
 
   return (
@@ -42,12 +42,11 @@ const HeroSection = () => {
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight relative">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-zinc-500">
-                Подними свой звук
+                Твой звук — твоя история
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-zinc-400 max-w-3xl mx-auto">
-              Создаю уникальные биты, которые помогут артистам выделиться. От трэпа до лоу-фай — найди
-              свой идеальный звук и выведи музыку на новый уровень.
+              Эксклюзивные биты для артистов, которые хотят звучать иначе. Трэп, дрилл, лоу-фай, R&B — выбери свой стиль и создай трек, который запомнят.
             </p>
             <div className="relative inline-block">
               <Button
